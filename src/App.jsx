@@ -11,6 +11,7 @@ function App() {
           <main>
             <Header />
             <Landing_section />
+
           </main>
         </div>
         <Footer />
