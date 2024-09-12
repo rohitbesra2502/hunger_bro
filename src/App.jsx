@@ -13,10 +13,6 @@ function App() {
         </div>
         <Footer />
       </div>
-<<<<<<< HEAD
-     
-=======
->>>>>>> 53a74bfe81f279645a94a7fbba867e6f61bdc6c8
     </>
   )
 }
