@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './component/Header'
+import Landing_section from './component/Landing_section'
 import Footer from './component/Footer'
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
         <div className="flex-grow">
           <main>
             <Header />
+            <Landing_section />
 
-            
           </main>
         </div>
         <Footer />
