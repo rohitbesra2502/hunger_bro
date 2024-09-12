@@ -8,11 +8,12 @@ function App() {
       <div className="flex flex-col min-h-screen">
         <div className="flex-grow">
           <main>
-            <Header/>
+            <Header />
           </main>
         </div>
-        <Footer/>
+        <Footer />
       </div>
+      <Header />
     </>
   )
 }
