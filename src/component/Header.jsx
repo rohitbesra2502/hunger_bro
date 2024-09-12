@@ -1,9 +1,4 @@
-import React from "react";
-
-function Header() {
-
-   
-
+const Header = () => {
     return (
         <>
             <header className="w-full py-9">
