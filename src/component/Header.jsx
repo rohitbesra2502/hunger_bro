@@ -3,8 +3,7 @@ import React from "react";
 function Header() {
 
     function opener() {
-        let mobile_menu = document.getElementById('menu');
-        mobile_menu.classList.toggle('h-0');
+        let mobile_menu = document.getElementById('menu'); 
     }
 
     return (
