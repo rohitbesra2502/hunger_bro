@@ -2,9 +2,7 @@ import React from "react";
 
 function Header() {
 
-    function opener() {
-        let mobile_menu = document.getElementById('menu'); 
-    }
+   
 
     return (
         <>
@@ -14,7 +12,7 @@ function Header() {
 
                         <div className="uppercase font-bold text-2xl flex items-center">
                             <div className="lg:hidden pe-3 lg:pe-0"   >
-                                <svg xmlns="http://www.w3.org/2000/svg" onClick={opener()} width="22" height="22" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
                                     <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                                 </svg>
                             </div>
