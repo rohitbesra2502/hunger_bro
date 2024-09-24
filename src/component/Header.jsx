@@ -5,13 +5,13 @@ const Header = () => {
                 <div className="lg:container lg:mx-auto px-2 lg:px-3 relative">
                     <div className="flex items-center justify-between">
 
-                        <div className="uppercase font-bold text-2xl flex items-center">
+                        <div className="uppercase font-bold text-4xl flex items-center relative leaf1 tracking-wider">
                             <div className="lg:hidden pe-3 lg:pe-0"   >
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
                                     <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                                 </svg>
                             </div>
-                            <div>
+                            <div className="font-logo">
                                 <span className="text-amber-400">hunger</span>
                                 <span className="text-slate-950">-</span>
                                 <span className="text-red-500">bro</span>
