@@ -17,7 +17,7 @@ const Header = () => {
                                 <span className="text-red-500">bro</span>
                             </div>
                         </div>
-
+ 
                         {/* overflow-hidden lg:overflow-visible h-0 lg:h-full */}
                         <div className="capitalize font-medium items-center w-full lg:w-auto absolute lg:relative top-14 lg:top-0 " id="menu">
                             <ul className="items-center justify-between gap-x-8 full flex flex-col lg:flex lg:flex-row lg:max-lg:flex-col bg-yellow-500 lg:bg-white">
