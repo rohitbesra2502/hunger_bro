@@ -20,8 +20,8 @@ const Header = () => {
  
                         {/* overflow-hidden lg:overflow-visible h-0 lg:h-full */}
                         <div className="capitalize font-medium items-center w-full lg:w-auto absolute lg:relative top-14 lg:top-0 " id="menu">
-                            <ul className="items-center justify-between gap-x-8 full flex flex-col lg:flex lg:flex-row lg:max-lg:flex-col bg-yellow-500 lg:bg-white">
-                                <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
+                            <ul className="items-center justify-between gap-x-8 full flex flex-col lg:flex lg:flex-row lg:max-lg:flex-col bg-yellow-500 lg:bg-transparent">
+                                <li className="py-3 lg:px-2 lg:py-2 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0 active">
                                     <a href="/">Home</a>
                                 </li>
                                 <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
