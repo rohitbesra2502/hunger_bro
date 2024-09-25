@@ -29,6 +29,7 @@ const Landing_section = () => {
                     </div>
                 </div>
             </section>
+
         </>
     )
 }
