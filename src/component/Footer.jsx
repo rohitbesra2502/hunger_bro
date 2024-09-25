@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <div className="p-20 bg-yellow-100">
-            <div className="flex min-h-full">
+            <div className="flex">
                 <div className="flex-1">
                     <div className="uppercase font-bold text-3xl ">
                         <span className="text-amber-400">hunger</span>
@@ -55,3 +55,6 @@ const Footer = () => {
 }
 
 export default Footer;
+
+
+// rohitbesra
