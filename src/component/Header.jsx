@@ -1,43 +1,59 @@
-const Header = () => {
+import React, { useState } from "react";
+
+function Header() {
+
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen);
+        alert("clicked !!");
+    };
+
     return (
         <>
             <header className="w-full py-9">
                 <div className="lg:container lg:mx-auto px-2 lg:px-3 relative">
                     <div className="flex items-center justify-between">
 
-                        <div className="uppercase font-bold text-4xl flex items-center relative leaf1 tracking-wider">
-                            <div className="lg:hidden pe-3 lg:pe-0"   >
+                        <div className="uppercase font-bold text-2xl flex items-center">
+                            <div className="lg:hidden pe-3 lg:pe-0" onClick={toggleMenu}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
                                     <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
                                 </svg>
                             </div>
-                            <div className="font-logo">
+                            <div>
                                 <span className="text-amber-400">hunger</span>
                                 <span className="text-slate-950">-</span>
                                 <span className="text-red-500">bro</span>
                             </div>
                         </div>
- 
+
+                        {/* ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} */}
                         {/* overflow-hidden lg:overflow-visible h-0 lg:h-full */}
-                        <div className="capitalize font-medium items-center w-full lg:w-auto absolute lg:relative top-14 lg:top-0 " id="menu">
-                            <ul className="items-center justify-between gap-x-8 full flex flex-col lg:flex lg:flex-row lg:max-lg:flex-col bg-yellow-500 lg:bg-transparent">
-                                <li className="py-3 lg:px-2 lg:py-2 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0 active">
-                                    <a href="/">Home</a>
-                                </li>
-                                <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
-                                    <a href="/">About Us</a>
-                                </li>
-                                <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
-                                    <a href="/">Our Special</a>
-                                </li>
-                                <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
-                                    <a href="/">Services</a>
-                                </li>
-                                <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
-                                    <a href="/">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
+
+                        {/* <div className={`${isMenuOpen ? "capitalize font-medium items-center w-full lg:w-auto absolute lg:relative top-14 lg:top-0" : ""} `} id="menu"> */}
+                        {/* <ul className={` ${isMenuOpen ? "items-center justify-between gap-x-8 full flex flex-col lg:flex lg:flex-row lg:max-lg:flex-col bg-yellow-500 lg:bg-white" : "md:hidden"}`}> */}
+
+                            <div className="capitalize font-medium items-center w-full lg:w-auto absolute lg:relative top-14 lg:top-0" id="menu">
+                                <ul className="items-center justify-between gap-x-8 full flex flex-col lg:flex lg:flex-row lg:max-lg:flex-col bg-yellow-500 lg:bg-white">
+                                    <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
+                                        <a href="/">Home</a>
+                                    </li>
+                                    <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
+                                        <a href="/">About Us</a>
+                                    </li>
+                                    <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
+                                        <a href="/">Our Special</a>
+                                    </li>
+                                    <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
+                                        <a href="/">Services</a>
+                                    </li>
+                                    <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
+                                        <a href="/">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+
 
 
                         <div className="uppercase font-bold text-2xl">
@@ -75,3 +91,7 @@ const Header = () => {
 }
 
 export default Header;
+
+
+
+
