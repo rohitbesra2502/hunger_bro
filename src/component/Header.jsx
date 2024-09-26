@@ -8,7 +8,7 @@ function Header() {
         setIsMenuOpen(!isMenuOpen);
         alert("clicked !!");
     };
-
+ 
     return (
         <>
             <header className="w-full py-9">

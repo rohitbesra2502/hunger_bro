@@ -10,7 +10,7 @@ const Product = () => {
                 </div>
 
                 <div className="">
-                    <ul className="px-0 ">
+                    <ul className="px-0">
                         <li className="">
                             <div className=""></div>
                         </li>
