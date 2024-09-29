@@ -8,7 +8,7 @@ function Header() {
         setIsMenuOpen(!isMenuOpen);
         alert("clicked !!");
     };
- 
+
     return (
         <>
             <header className="w-full py-9">
@@ -34,25 +34,25 @@ function Header() {
                         {/* <div className={`${isMenuOpen ? "capitalize font-medium items-center w-full lg:w-auto absolute lg:relative top-14 lg:top-0" : ""} `} id="menu"> */}
                         {/* <ul className={` ${isMenuOpen ? "items-center justify-between gap-x-8 full flex flex-col lg:flex lg:flex-row lg:max-lg:flex-col bg-yellow-500 lg:bg-white" : "md:hidden"}`}> */}
 
-                            <div className="capitalize font-medium items-center w-full lg:w-auto absolute lg:relative top-14 lg:top-0" id="menu">
-                                <ul className="items-center justify-between gap-x-8 full flex flex-col lg:flex lg:flex-row lg:max-lg:flex-col bg-yellow-500 lg:bg-white">
-                                    <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
-                                        <a href="/">Home</a>
-                                    </li>
-                                    <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
-                                        <a href="/">About Us</a>
-                                    </li>
-                                    <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
-                                        <a href="/">Our Special</a>
-                                    </li>
-                                    <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
-                                        <a href="/">Services</a>
-                                    </li>
-                                    <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
-                                        <a href="/">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
+                        <div className="capitalize font-medium items-center w-full lg:w-auto absolute lg:relative top-14 lg:top-0" id="menu">
+                            <ul className="items-center justify-between gap-x-8 full flex flex-col lg:flex lg:flex-row lg:max-lg:flex-col">
+                                <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
+                                    <a href="/">Home</a>
+                                </li>
+                                <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
+                                    <a href="/">About Us</a>
+                                </li>
+                                <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
+                                    <a href="/">Our Special</a>
+                                </li>
+                                <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
+                                    <a href="/">Services</a>
+                                </li>
+                                <li className="py-3 lg:py-0 border-b border-slate-100 w-full text-center lg:w-auto lg:border-0">
+                                    <a href="/">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
 
 
 
