@@ -62,7 +62,7 @@ ul li.active {
   content: '';
   position: absolute;
   z-index: 0;
-  background-image: url(/src/assets/underline.svg);
+  background-image: url(src/assets/underline.svg);
   width: 100%;
   height: 19px;
   top: 61px;
@@ -89,4 +89,8 @@ ul li.active {
   background-size: contain;
   top: -15px;
   right: -50px;
+}
+
+.product_images{
+  height: 250px;
 }
