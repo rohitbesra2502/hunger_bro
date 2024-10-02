@@ -3,6 +3,7 @@ import Header from './component/Header'
 import Landing_section from './component/Landing_section'
 import Product from './component/Product'
 import Footer from './component/Footer'
+import Landing_service from './component/Landing_service'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
             <Header />
             <Landing_section />
             <Product />
-
+            <Landing_service/>
           </main>
         </div>
         <Footer />
