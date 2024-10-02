@@ -91,6 +91,16 @@ ul li.active {
   right: -50px;
 }
 
-.product_images{
-  height: 250px;
+.product_images {
+  height: 200px;
+}
+
+.roundeded {
+
+  border-radius: 0px 0px 0px 1rem;
+}
+
+.slick-slide>div {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
