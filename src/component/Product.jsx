@@ -29,8 +29,7 @@ const Product = () => {
         slidesToScroll: 1,
         initialSlide: 0,
         autoplay: true,
-        autoplaySpeed: 2000,
-        // cssEase: "linear",
+        autoplaySpeed: 2000, 
         responsive: [
             {
                 breakpoint: 1024,
