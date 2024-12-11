@@ -1,24 +1,24 @@
 import React from 'react'
-import Header from './component/Header'
-import Landing_section from './component/Landing_section'
-import Product from './component/Product'
-import Footer from './component/Footer'
-import Landing_service from './component/Landing_service'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './component/Home';
+import About from './component/About';
+import OurSpecial from './component/OurSpecial';
+import Services from './component/Services';
+import Contact from './component/Contact';
+
 
 function App() {
   return (
     <>
-      <div className="flex flex-col min-h-screen">
-        <div className="flex-grow">
-          <main>
-            <Header />
-            <Landing_section />
-            <Product />
-            <Landing_service/>
-          </main>
-        </div>
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='About' element={<About />} />
+          <Route path='OurSpecial' element={<OurSpecial />} />
+          <Route path='Services' element={<Services />} />
+          <Route path='Contact' element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

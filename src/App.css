@@ -104,3 +104,32 @@ ul li.active {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
+
+.for_about_bg {
+  background: radial-gradient(#643809, #1c1208);
+}
+
+.for_about_bg ul li {
+  color: #fff;
+
+}
+
+.for_about_bg ul li svg path {
+  fill: #fff !important;
+}
+
+.for_about_bg h2::before,
+.short_underline::before {
+  content: '';
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  background-color: yellow;
+  width: 10%;
+  height: 5px;
+  border-radius: 1rem;
+}
+
+.borderrr {
+  border-radius: 0.6rem 2.8rem;
+}
